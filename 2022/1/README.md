@@ -1,7 +1,5 @@
 # day 1 - calorie counting
 
----
-
 ## implementations
 
 ### [nim](./elf.nim)
