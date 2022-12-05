@@ -2,11 +2,31 @@
 
 ## implementations
 
+### [elixir](./elf.ex)
+
 ### [nim](./elf.nim)
+
+```bash
+Benchmark 1: ./elf test.in
+  Time (mean ± σ):       2.2 ms ±   0.2 ms    [User: 2.0 ms, System: 0.4 ms]
+  Range (min … max):     1.9 ms …   3.3 ms    1000 runs
+```
 
 ### [python](./elf.py)
 
+```bash
+Benchmark 1: python elf.py test.in
+  Time (mean ± σ):      11.4 ms ±   0.6 ms    [User: 9.7 ms, System: 1.8 ms]
+  Range (min … max):    10.5 ms …  15.0 ms    1000 runs
+```
+
 ### [v](./elf.v)
+
+```bash
+Benchmark 1: ./elf test.in
+  Time (mean ± σ):       0.7 ms ±   0.1 ms    [User: 0.5 ms, System: 0.5 ms]
+  Range (min … max):     0.5 ms …   1.5 ms    1000 runs
+```
 
 ---
 

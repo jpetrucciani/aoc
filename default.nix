@@ -18,9 +18,14 @@ let
       gnugrep
       gnused
       gawk
+      hyperfine
       jq
       yq-go
       nixpkgs-fmt
+    ];
+    elixir = [
+      elixir
+      elixir_ls
     ];
     python = [
       (python310.withPackages (p: with p; [
@@ -40,6 +45,9 @@ let
     scripts = [
       (writeShellScriptBin "prospector" ''
         ${prospector}/bin/prospector $@
+      '')
+      (writeShellScriptBin "hyper" ''
+        ${hyperfine}/bin/hyperfine --runs 1000 --shell="${bashInteractive}/bin/bash" "$@"
       '')
     ];
   };

@@ -2,7 +2,6 @@ import arrays
 import os
 
 filename := os.args[1]
-println(filename)
 
 data := os.read_file(filename)?
 groups := data.split("\n\n")
