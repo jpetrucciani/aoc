@@ -190,3 +190,5 @@ result*
 !**/sample.in
 **/*.out
 !**/sample.out
+
+.vscode
