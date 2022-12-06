@@ -21,3 +21,11 @@ _Day 3: Rucksack Reorganization_
 ### [4/](./4/)
 
 _Day 4: Camp Cleanup_
+
+### [5/](./5/)
+
+_Day 5: Supply Stacks_
+
+### [6/](./6/)
+
+_Day 6: Tuning Trouble_
